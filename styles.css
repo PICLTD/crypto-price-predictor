@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+canvas {
+    border: 1px solid #ccc;
+}
+
+.timeframe-selector {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    canvas {
+        width: 100%;
+        height: auto;
+    }
+}
